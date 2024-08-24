@@ -1,0 +1,8 @@
+[package]
+name = "Pobserver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+linux-personality = "1.0"
+nix = {version = "0.26.2", features = ["ptrace", "process"]}
